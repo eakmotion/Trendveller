@@ -38,9 +38,14 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 gem 'foursquare2'
+gem 'geokit'
+gem 'instagram'
+gem 'httparty'
+gem 'pjax_rails'
+gem 'pry'
 
 gem 'geocoder'
-
+gem 'font-awesome-sass-rails'
 gem "rspec-rails", ">= 2.12.2", :group => [:development, :test]
 gem "database_cleaner", ">= 1.0.0.RC1", :group => :test
 gem "email_spec", ">= 1.4.0", :group => :test

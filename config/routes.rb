@@ -1,6 +1,10 @@
 Trendveller::Application.routes.draw do
 
   root :to => "lists#home"
+  get "/results", :to => "lists#results", :as => :results
+  get "/category", :to => "lists#category", :as => :category
+  # get "/feeds", :to => "feeds#index", :as => :index
+  get "/feeds/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
