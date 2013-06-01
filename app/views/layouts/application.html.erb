@@ -4,6 +4,9 @@
   <title>Trendveller</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <script type="text/javascript">
+    var locale = '<%= I18n.locale %>';
+  </script>
   <%= csrf_meta_tags %>
   <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 </head>

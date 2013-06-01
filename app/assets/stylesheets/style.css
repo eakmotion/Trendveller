@@ -108,4 +108,26 @@ input[type="color"],
 	width: 450px;
 }
 
+.fader{
+	position: relative;
+	padding-bottom: 268px;
+	width: 286px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(iphone_nohand.png) no-repeat center 0;
+	background-size: 100%;
+}
 
+
+.fader .flexslider1{
+	width: 244px;
+	height: 434px;
+	position: relative;
+	top: 87px;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+.fader .flex-control-nav{
+	bottom: -60px;
+}
