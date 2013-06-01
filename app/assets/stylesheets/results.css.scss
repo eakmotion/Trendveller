@@ -1,0 +1,135 @@
+.header {
+	float: right;
+	margin-top: 15px;
+}
+
+.header a {
+	font-family: "Open Sans";
+	font-size: 14px;
+	margin-right: 15px;
+}
+
+.date {
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.results {
+	width: 650px;
+	height: 80px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#rank {
+	display: inline-block;  
+	font-family: "Lobster";
+	color: #de0808;
+	font-size: 30px;
+	line-height: 97px;
+	float: left;
+	width: 35px;
+	padding-right: 25px;
+	text-align: right;
+}
+
+.result {
+	background-color: white; 
+  width: 530px;
+  height: 97px;
+  display: inline-block;
+  float: left;
+}
+
+.current_checkins {
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-right: 10px;
+  width: 70px;
+  float: left;
+  text-align: center;
+}
+
+.current_checkins p{
+  font-family: "Open Sans";
+  font-size: 8px;
+  color: #0a8cc8;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+
+.current_checkins p + p {
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-weight: 500;
+  padding-top: 3px;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.venue_details {
+  line-height: 10px;
+  padding-left: 10px;
+  padding-top: 12px;
+  float: left;
+  height: 70px;
+  width: 290px;
+  /*border: 1px solid red;*/
+}
+
+.venue_details a {
+  color: #0a8cc8;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.venue_details p {
+  color: black;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.venue_details img {
+  padding-bottom: 30px;
+  padding-right: 10px;
+  padding-top: 1px;
+  float: left;
+}
+
+#save {
+  background-color: #0a8cc8;
+  width: 75px;
+  height: 97px;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  float: right;
+  line-height: 75px;
+  text-align: center;
+  border: none;
+}
+
+.results form {
+  margin: 0px;
+}
+
+#email_form {
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+
+
+
+
+

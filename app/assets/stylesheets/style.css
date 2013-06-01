@@ -1,0 +1,111 @@
+.test {
+	display: in
+}
+
+#bg_yellow {
+	background-color: #ffbb04;
+}
+
+.container {
+	width: 80%;
+	min-width: 600px;
+	margin: auto;
+}
+
+h1 {
+	font-family: "Lobster";
+	font-size: 55px;
+	color: #de0808;
+	line-height: 50px;
+	margin-top: 175px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Lobster";
+	font-size: 34px;
+	color: #de0808;
+	line-height: 50px;
+	margin-top: 80px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.rule_yellow {
+	height: 2px;
+	background-color: #f9aa00;
+	margin: auto;
+}
+
+.rule_white {
+	height: 1px;
+	background-color: #ffda66;
+	margin: auto;
+}
+
+.btn_blue {
+	background-color: #0a8cc8;
+	font-family: "Open Sans";
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+	padding: 8px 15px;
+	border: 1px solid #086a97;
+	border-radius: 4px;
+	text-align: center;
+  cursor: pointer;
+}
+
+#search_box .btn_blue {
+	margin-top: -11px;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	padding: 8px;
+	font-family: "Open Sans";
+	font-weight: 100;
+	margin-right: 5px;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.form-inline {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#auth_links {
+	width: 570px;
+	margin: auto;
+	margin-top: -10px;
+	text-align: right;
+}
+
+#search_box {
+	width: 571px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#search_box input[type="text"] {
+	width: 450px;
+}
+
+

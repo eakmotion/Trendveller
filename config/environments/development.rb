@@ -34,4 +34,7 @@ Trendveller::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  ENV["CLIENT_ID"] = 'UEYKD2W1YG05J1S4QMIL5GBARIZZQSXK3OER4JVIR1FYYDZN'
+  ENV["CLIENT_SECRET"] = 'Y3VBBFGQ5LSCVRWYSZV0OPW1MKQ4UX23LTL424CF2KHSWHY5'
 end
