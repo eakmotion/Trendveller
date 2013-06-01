@@ -5,6 +5,7 @@ Trendveller::Application.routes.draw do
   get "/category", :to => "lists#category", :as => :category
   # get "/feeds", :to => "feeds#index", :as => :index
   get "/feeds/index"
+  get "/place", :to => "lists#place"
   get "/mobile", :to => "pages#new"
 
   # The priority is based upon order of creation:

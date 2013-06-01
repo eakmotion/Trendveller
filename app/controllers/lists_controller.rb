@@ -31,6 +31,9 @@ class ListsController < ApplicationController
       format.html
       format.json { render :json => @venues }
     end
+  end
+
+  def place
 
   end
 
