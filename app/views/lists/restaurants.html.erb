@@ -21,7 +21,7 @@
           <p><%= link_to "Social talk about this", "https://twitter.com/search?q=#{v["name"]}", :target => "_blank" %></p>
         </div>
             <!-- <p id="save">Get direction</p> -->
-            <p><div class="btn btn-success"><%= link_to "Take me there", "https://maps.google.com/maps/myplaces?ll=#{v["location"]["lat"]},#{v["location"]["lng"]}", :target => "_blank" %><i class="icon-map-marker icon-white"></i>
+            <p><div class="btn btn-success"><%= link_to "Take me there ", "https://maps.google.com/maps/myplaces?ll=#{v["location"]["lat"]},#{v["location"]["lng"]}", :target => "_blank" %><i class="icon-map-marker icon-white"></i>
             </div></p>
       </div>
       <% rank += 1 %>

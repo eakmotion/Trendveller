@@ -220,3 +220,7 @@ a.start:hover {
     line-height:1px;
     text-shadow: 0px 1px 1px #4CB572;
 }
+
+.result .btn-success a{
+	color: #FFF !important;
+}
