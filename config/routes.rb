@@ -2,7 +2,10 @@ Trendveller::Application.routes.draw do
 
   root :to => "lists#home"
   get "/results", :to => "lists#results", :as => :results
-  get "/category", :to => "lists#category", :as => :category
+  get "/shops", :to => "lists#shops", :as => :shops
+  get "/restaurants", :to => "lists#restaurants", :as => :restaurants
+  get "/entertainments", :to => "lists#entertainments", :as => :entertainments
+  get "/hotels", :to => "lists#hotels", :as => :hotels
   # get "/feeds", :to => "feeds#index", :as => :index
   get "/feeds/index"
   get "/place", :to => "lists#place"
