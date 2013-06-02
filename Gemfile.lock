@@ -76,6 +76,7 @@ GEM
       launchy (~> 2.1)
       mail (~> 2.2)
     erubis (2.7.0)
+    excon (0.22.1)
     execjs (1.4.0)
       multi_json (~> 1.0)
     factory_girl (4.2.0)
@@ -103,6 +104,14 @@ GEM
     gherkin (2.12.0)
       multi_json (~> 1.3)
     hashie (2.0.5)
+    heroku (2.39.4)
+      heroku-api (~> 0.3.7)
+      launchy (>= 0.3.2)
+      netrc (~> 0.7.7)
+      rest-client (~> 1.6.1)
+      rubyzip
+    heroku-api (0.3.11)
+      excon (~> 0.22.1)
     hike (1.2.2)
     httparty (0.9.0)
       multi_json (~> 1.0)
@@ -130,6 +139,7 @@ GEM
     multi_json (1.7.4)
     multi_xml (0.5.1)
     multipart-post (1.2.0)
+    netrc (0.7.7)
     nokogiri (1.5.9)
     orm_adapter (0.4.0)
     pjax_rails (0.3.4)
@@ -166,6 +176,8 @@ GEM
     rake (10.0.4)
     rdoc (3.12.2)
       json (~> 1.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     rolify (3.2.0)
     rspec-core (2.13.1)
     rspec-expectations (2.13.0)
@@ -178,6 +190,7 @@ GEM
       rspec-core (~> 2.13.0)
       rspec-expectations (~> 2.13.0)
       rspec-mocks (~> 2.13.0)
+    rubyzip (0.9.9)
     sass (3.2.9)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -227,6 +240,7 @@ DEPENDENCIES
   foursquare2
   geocoder
   geokit
+  heroku
   httparty
   hub (>= 1.10.2)
   instagram
